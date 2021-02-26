@@ -9,3 +9,5 @@ Coding perspective:
            
 3) Client: The client code calls the director creating a builder object, passes it to the director and then initiates the construction process. 
            The end result is retrieved from the builder object.
+           
+           ![alt text](https://github.com/RajSanpui/DesignPatterns/blob/main/Creational/Builder/Restaurant.png)
