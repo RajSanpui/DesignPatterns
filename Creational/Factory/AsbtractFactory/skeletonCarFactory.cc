@@ -36,6 +36,7 @@ class Ferrari : public EuropeanCarFactory {
 
 };
 
+// This is the abstract factory
 class AutoMobileFactory {
    public:
          CarFactory* createIndianCar( ) = 0;
