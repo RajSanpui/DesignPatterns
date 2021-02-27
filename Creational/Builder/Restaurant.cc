@@ -44,6 +44,7 @@ class Director {
         }
 };
 
+// Client - Calls the director requesting it to build a specific version of the product
 class Client {
    public:
          void orderFood(string order)
