@@ -25,6 +25,7 @@ class IndianBuilder : public Builder
      string getCompDrinks() {return "Wine";}
 };
 
+// Director - Executes sequentially the steps of abstract builder
 class Director {
   Builder *builder;
 
