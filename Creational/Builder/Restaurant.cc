@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+// Builder - Specifies the steps to build a complete product
 class Builder {
    public:
        virtual string cookMainCourse() = 0;
