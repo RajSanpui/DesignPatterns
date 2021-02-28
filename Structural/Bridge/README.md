@@ -4,3 +4,5 @@ Bridge is a structural design pattern that divides business logic or huge class 
 One of these hierarchies (often called the Abstraction) will get a reference to an object of the second hierarchy (Implementation). 
 The abstraction will be able to delegate some (sometimes, most) of its calls to the implementations object.
 (Extract from: https://refactoring.guru/design-patterns/bridge)
+
+![alt text](https://github.com/RajSanpui/DesignPatterns/blob/main/Structural/Bridge/Bridge_design_pattern.png)
