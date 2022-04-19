@@ -43,7 +43,7 @@ class AutoMobileFactory {
          CarFactory* createEuropeanCar( ) = 0;
 };
 
-class ConcreteFactory {
+class ConcreteFactory : public AutomobileFactory {
      public:
           CarFactory* createIndianCar(string cost)
           {
